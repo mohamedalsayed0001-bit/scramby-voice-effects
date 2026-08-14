@@ -1,0 +1,9 @@
+# Exclude build artifacts
+# This file is used to override language statistics 
+src/**/*.ts linguist-detectable
+src/*.ts linguist-detectable
+
+*.gif binary
+public/**/*.html linguist-vendored
+*.min.css linguist-generated
+*.html linguist-vendored
